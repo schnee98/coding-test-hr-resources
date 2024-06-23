@@ -7,6 +7,7 @@ body {
 header {
 	display: flex;
 	height: 60px;
+  justify-content: space-between;
 	align-items: center;
 	font-size: 1.5em;
 	font-family: 'Bebas Neue', cursive;
@@ -20,9 +21,11 @@ header {
 }
 
 .header_left {
+  cursor: pointer;
 }
 
 .header_right {
+  cursor: pointer;
 }
 
 #page_content {
