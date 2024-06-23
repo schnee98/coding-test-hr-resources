@@ -43,8 +43,6 @@ const watchCardStatus = () => {
       status: card.classList.toString(),
     }));
 
-    console.log('Card Status:', cardStatus);
-
     localStorage.setItem('cardStatus', JSON.stringify(cardStatus));
   });
 };
