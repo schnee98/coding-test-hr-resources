@@ -102,6 +102,10 @@ header {
   margin: 0.75em auto;
 }
 
+.form_elem div {
+  display: flex;
+}
+
 .form_elem input {
   width: 100%;
   padding: 1em;
@@ -127,4 +131,12 @@ header {
   border-radius: 1rem;
   box-sizing: border-box;
   background: #dedede;
+}
+
+.form_description {
+
+}
+
+.mark {
+  color: red;
 }
